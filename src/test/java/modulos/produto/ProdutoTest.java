@@ -20,7 +20,7 @@ public class ProdutoTest {
         // Configurando os dados da API Rest da Lojinha         //RestAssured, dá a possibilidade de apontar a API
         baseURI = "http://165.227.93.41";
         //port = 8080;
-        basePath = "/lojinha-bugada";
+        basePath = "/lojinha";
 
         // Obter o token do usuario admin       // Dado que     //Dá a possibilidade executar requisições contra ela, de modo que possa enviar os dados.
         this.token = given()
